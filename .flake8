@@ -1,0 +1,10 @@
+[flake8]
+max-line-length = 79
+exclude =
+    .git,
+    __pycache__,
+    build,
+    dist,
+    docs
+per-file-ignores =
+    wikinode/__init__.py:F401
